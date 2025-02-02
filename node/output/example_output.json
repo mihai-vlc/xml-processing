@@ -1,0 +1,51 @@
+{
+    "?xml": {
+        "@_version": 1
+    },
+    "data": {
+        "country": [
+            {
+                "rank": 1,
+                "year": 2008,
+                "gdppc": 141100,
+                "neighbor": [
+                    {
+                        "@_name": "Austria",
+                        "@_direction": "E"
+                    },
+                    {
+                        "@_name": "Switzerland",
+                        "@_direction": "W"
+                    }
+                ],
+                "@_name": "Liechtenstein"
+            },
+            {
+                "rank": 4,
+                "year": 2011,
+                "gdppc": 59900,
+                "neighbor": {
+                    "@_name": "Malaysia",
+                    "@_direction": "N"
+                },
+                "@_name": "Singapore"
+            },
+            {
+                "rank": 68,
+                "year": 2011,
+                "gdppc": 13600,
+                "neighbor": [
+                    {
+                        "@_name": "Costa Rica",
+                        "@_direction": "W"
+                    },
+                    {
+                        "@_name": "Colombia",
+                        "@_direction": "E"
+                    }
+                ],
+                "@_name": "Panama"
+            }
+        ]
+    }
+}

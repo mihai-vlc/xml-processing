@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "simple": "node simple.js",
+    "convert-to-json": "fxparser example.xml -o output/example_output.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^4.5.1"
+  }
+}
