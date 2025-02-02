@@ -5,17 +5,29 @@ let parser = new XMLParser({
     ignoreAttributes: false,
     attributeNamePrefix: "",
     attributesGroupName: "attrs",
+    tagValueProcessor: function (name, val, jPath, hasAttr, isLeaf) {
+        console.log("tagValueProcessor", arguments);
+
+        if (name == 'year') {
+            return parseInt(val).toLocaleString();
+        }
+        return val;
+    },
     updateTag: function (tagName, jPath, attrs) {
         if (tagName == 'country') {
             attrs.attrs['extra-attr'] = attrs.attrs.name;
         }
-        console.log(arguments);
+        if (tagName == 'gdppc') {
+            return false; // skip tag
+        }
+        console.log("updateTag", arguments);
         return tagName;
     }
 });
 let fileContent = fs.readFileSync('example.xml', { encoding: 'utf8' });
 let fileData = parser.parse(fileContent);
 
+console.log("fileData", fileData);
 
 for (let country of fileData.data.country) {
     if (country.attrs.name == 'Singapore') {
