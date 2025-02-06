@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "simple": "node simple.js",
+    "stream": "node stream-example.js",
     "convert-to-json": "fxparser example.xml -o output/example_output.json"
   },
   "keywords": [],
@@ -12,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "fast-xml-parser": "^4.5.1",
-    "sax": "^1.4.1"
+    "sax": "^1.4.1",
+    "xmlbuilder2": "^3.1.1",
+    "xpath": "^0.0.34"
   }
 }

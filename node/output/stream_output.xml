@@ -1,17 +1,19 @@
-<?xml version="1.0"?>
-<data>
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://my-namespace.com">
     <country name="Liechtenstein">
         <rank>1</rank>
         <year>2008</year>
         <gdppc>141100</gdppc>
         <neighbor name="Austria" direction="E" />
         <neighbor name="Switzerland" direction="W" />
+        <extra name="population">main text content</extra>
     </country>
     <country name="Singapore">
         <rank>4</rank>
         <year>2011</year>
         <gdppc>59900</gdppc>
         <neighbor name="Malaysia" direction="N" />
+        <extra name="population">main text content</extra>
     </country>
     <country name="Panama">
         <rank>68</rank>
@@ -19,5 +21,6 @@
         <gdppc>13600</gdppc>
         <neighbor name="Costa Rica" direction="W" />
         <neighbor name="Colombia" direction="E" />
+        <extra name="population">main text content</extra>
     </country>
 </data>
