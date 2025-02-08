@@ -1,0 +1,16 @@
+{
+  "name": "stream-json",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "echo dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["a", "b", "c"],
+  "author": "",
+  "license": "ISC",
+  "description": "Description value",
+  "dependencies": {
+    "clarinet": "^0.12.6"
+  }
+}
