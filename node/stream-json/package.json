@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "clarinet": "^0.12.6"
+    "clarinet": "^0.12.6",
+    "JSONStream": "^1.3.5"
   }
 }
