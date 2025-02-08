@@ -23,6 +23,7 @@ const OBJECT_OUTPUT_FILE_PATH = "output/object-stringify.json";
 const jsonObjectStream = JSONStream.stringifyObject("{\n", ",\n", "\n}\n");
 
 jsonObjectStream.pipe(fs.createWriteStream(OBJECT_OUTPUT_FILE_PATH));
+// jsonObjectStream.pipe(process.stdout);
 
 
 for (let i = 0; i < 10; i++) {
@@ -36,5 +37,6 @@ for (let i = 0; i < 10; i++) {
   ]);
 }
 jsonObjectStream.end();
+console.log(`Completed processing ${OBJECT_OUTPUT_FILE_PATH}`);
 
 
