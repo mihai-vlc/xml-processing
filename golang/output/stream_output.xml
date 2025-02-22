@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data xmlns="https://my-namespace.com">
+    <country name="Liechtenstein" extra-attr="new value">
+        <rank>1</rank>
+        <year>2008</year>
+        <gdppc>141100</gdppc>
+        <neighbor name="Austria" direction="E"></neighbor>
+        <neighbor name="Switzerland" direction="W"></neighbor>
+        <extra name="population">main text content</extra>
+    </country>
+    <country name="Singapore" extra-attr="new value">
+        <rank>4</rank>
+        <year>2011</year>
+        <gdppc>59900</gdppc>
+        <neighbor name="Malaysia" direction="N"></neighbor>
+        <extra name="population">main text content</extra>
+    </country>
+    <!-- comment -->
+    <country name="Panama" extra-attr="new value">
+        <rank>68</rank>
+        <year>2011</year>
+        <gdppc>13600</gdppc>
+        <neighbor name="Costa Rica" direction="W"></neighbor>
+        <neighbor name="Colombia" direction="E"></neighbor>
+        <extra name="population">main text content</extra>
+    </country>
+</data>
